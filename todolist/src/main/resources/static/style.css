@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    min-height: 100vh;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+#taskList li {
+    transition: all 0.3s ease;
+}
+
+#taskList li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
